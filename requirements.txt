@@ -2,5 +2,7 @@ jupyter
 jupyterlab
 baytune
 xgboost==0.82
+scikit-learn==0.20.2
+setuptools==41.0.0
 -e git+https://github.com/HDI-Project/MLBlocks.git@467948e4088915eabbe2e6853e2d88408a10e96d#egg=mlblocks
 -e git+https://github.com/HDI-Project/MLPrimitives.git@8741d65ee3b16ff9d2371f2f58c1189d9065a4e7#egg=mlprimitives

@@ -8,7 +8,4 @@ RUN pip install -r requirements.txt
 
 WORKDIR /notebooks
 
-CMD /usr/local/bin/jupyter notebook \
-    --no-browser \
-    --ip 0.0.0.0 \
-    --NotebookApp.token="$PASSWORD"
+CMD /usr/local/bin/jupyter notebook --no-browser --ip 0.0.0.0 --allow-root --NotebookApp.token="$PASSWORD"
