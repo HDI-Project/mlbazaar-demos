@@ -64,7 +64,7 @@ In order to run the demos, you will need to do the following steps:
 
 
 ```bash
-git clone https://github.com/csala/mlprimitives-demos.git
+git clone https://github.com/HDI-Project/mlprimitives-demos.git
 cd mlprimitives-demos
 pip install virtualenv
 virtualenv -p $(which python3.6) venv
