@@ -36,7 +36,7 @@ Installation instructions for any possible system compatible can be found [here]
 Once you have docker installed, all you need to execute to run the image is:
 
 ```bash
-docker --rm -ti -p8888:8888 mlbazaar/demos
+docker run --rm -ti -p 8888:8888 mlbazaar/demos
 ```
 
 Afterwards, you simply need to point your browser at http://127.0.0.1:8888 and start running the notebooks!
